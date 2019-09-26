@@ -16,6 +16,10 @@
 		F0E547EC233CAD5700838992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E547EA233CAD5700838992 /* LaunchScreen.storyboard */; };
 		F0E547F7233CAD5700838992 /* CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E547F6233CAD5700838992 /* CollectionViewTests.swift */; };
 		F0E54802233CAD5700838992 /* CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E54801233CAD5700838992 /* CollectionViewUITests.swift */; };
+		F0E54810233CB4AB00838992 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E5480F233CB4AB00838992 /* CustomCollectionViewCell.swift */; };
+		F0E54812233CBA5900838992 /* NewCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E54811233CBA5900838992 /* NewCatViewController.swift */; };
+		F0E54814233CBA8600838992 /* CatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E54813233CBA8600838992 /* CatCollectionViewCell.swift */; };
+		F0E54816233CBF4B00838992 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E54815233CBF4B00838992 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		F0E547FD233CAD5700838992 /* CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E54801233CAD5700838992 /* CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewUITests.swift; sourceTree = "<group>"; };
 		F0E54803233CAD5700838992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E5480F233CB4AB00838992 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		F0E54811233CBA5900838992 /* NewCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCatViewController.swift; sourceTree = "<group>"; };
+		F0E54813233CBA8600838992 /* CatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCollectionViewCell.swift; sourceTree = "<group>"; };
+		F0E54815233CBF4B00838992 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				F0E547EA233CAD5700838992 /* LaunchScreen.storyboard */,
 				F0E547ED233CAD5700838992 /* Info.plist */,
 				F0E547E5233CAD5500838992 /* CollectionView.xcdatamodeld */,
+				F0E5480F233CB4AB00838992 /* CustomCollectionViewCell.swift */,
+				F0E54811233CBA5900838992 /* NewCatViewController.swift */,
+				F0E54813233CBA8600838992 /* CatCollectionViewCell.swift */,
+				F0E54815233CBF4B00838992 /* Product.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -263,8 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0E547E1233CAD5500838992 /* ViewController.swift in Sources */,
+				F0E54816233CBF4B00838992 /* Product.swift in Sources */,
+				F0E54814233CBA8600838992 /* CatCollectionViewCell.swift in Sources */,
+				F0E54810233CB4AB00838992 /* CustomCollectionViewCell.swift in Sources */,
 				F0E547DD233CAD5500838992 /* AppDelegate.swift in Sources */,
 				F0E547E7233CAD5500838992 /* CollectionView.xcdatamodeld in Sources */,
+				F0E54812233CBA5900838992 /* NewCatViewController.swift in Sources */,
 				F0E547DF233CAD5500838992 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
